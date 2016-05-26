@@ -11,3 +11,4 @@ turbine:
   aggregator:
     clusterConfig: ONLINEWEB
   appConfig: catalog-service,inventory-service
+  clusterNameExpression: metadata['onlineweb']
