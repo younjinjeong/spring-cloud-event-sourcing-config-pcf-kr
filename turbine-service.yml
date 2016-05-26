@@ -10,4 +10,4 @@ server:
 turbine:
   aggregator:
     clusterConfig: ONLINEWEB
-  appConfig: catalog-service,account-service,edge-service,inventory-service,order-service,user-service
+  appConfig: catalog-service,inventory-service
