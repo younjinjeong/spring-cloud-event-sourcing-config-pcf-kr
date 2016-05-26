@@ -10,3 +10,6 @@ server:
 turbine:
   aggregator:
   appConfig: catalog-service,inventory-service
+  InstanceMonitor:
+    eventStream:
+      skipLineLogic: false
