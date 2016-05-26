@@ -8,5 +8,6 @@ server:
   port: ${PORT:8989}
 
 turbine:
+  aggregator:
+    clusterConfig: ONLINEWEB
   appConfig: catalog-service,inventory-service
-  clusterNameExpression: 'default'
