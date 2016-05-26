@@ -1,4 +1,3 @@
-spring.profiles.active: cloud
 ---
 spring:
   profiles: cloud
@@ -12,12 +11,3 @@ turbine:
   aggregator:
     clusterConfig: ONLINEWEB
   appConfig: catalog-service,account-service,edge-service,inventory-service,order-service,user-service
-
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:
-    registerWithEureka: true
-    fetchRegistry: true
-    serviceUrl:
-      defaultZone: http://discovery-service:8761/eureka/
