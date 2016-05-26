@@ -19,7 +19,7 @@ security:
   oauth2:
     resource:
       userInfoUri: ${vcap.services.user-service.credentials.uri:http://localhost:8181}/uaa/user
-  ignored: /catalog/**,/account/**
+  ignored: /catalog/**
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 60000
 ribbon:
   ConnectTimeout: 3000
