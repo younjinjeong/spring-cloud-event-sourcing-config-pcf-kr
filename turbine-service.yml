@@ -10,8 +10,3 @@ server:
 turbine:
   aggregator:
   appConfig: catalog-service,inventory-service
-  clusterNameExpression: metadata['onlineweb']
-  InstanceMonitor:
-    eventStream:
-      skipLineLogic:
-        enabled: false
