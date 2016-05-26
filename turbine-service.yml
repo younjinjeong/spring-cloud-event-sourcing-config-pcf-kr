@@ -9,7 +9,7 @@ server:
 
 turbine:
   aggregator:
-  clusterConfig: CATALOG-SERVICE
+    clusterConfig: CATALOG-SERVICE
   appConfig: catalog-service
   InstanceMonitor:
     eventStream:
