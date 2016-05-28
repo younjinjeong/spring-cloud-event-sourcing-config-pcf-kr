@@ -10,7 +10,7 @@ security:
       userInfoUri: ${vcap.services.user-service.credentials.uri:http://localhost:8181}/uaa/user
     client:
       client-id: acme
-  ignored: /hystrix.stream/**
+#  ignored: /hystrix.stream/**
 ---
 spring:
   profiles: development
