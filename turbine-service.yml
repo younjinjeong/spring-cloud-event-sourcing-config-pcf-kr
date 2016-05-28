@@ -10,8 +10,9 @@ server:
 turbine:
   aggregator:
     clusterConfig: CATALOG-SERVICE,INVENTORY-SERVICE
-  appConfig: catalog-service,inventory-service
+#  appConfig: catalog-service,inventory-service
   InstanceMonitor:
     eventStream:
       skipLineLogic: false
   instanceUrlSuffix: /hystrix.stream
+  clusterNameExpression: 'default'
