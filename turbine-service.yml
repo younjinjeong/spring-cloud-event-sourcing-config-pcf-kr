@@ -15,6 +15,4 @@ turbine:
     eventStream:
       skipLineLogic: false
   instanceUrlSuffix: /hystrix.stream
-  clusterNameExpression: 'default'
-#  ConfigPropertyBasedDiscovery: 
-#    instances: inventory-service-obsessive-cerargyrite.pcfdemo.net,catalog-service-gratuitous-stonemasonry.pcfdemo.net
+  #clusterNameExpression: 'default'
