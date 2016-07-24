@@ -20,3 +20,6 @@ spring:
 info:
   id: ${spring.application.name}
 
+endpoints:
+  suthdown:
+    enabled: true
