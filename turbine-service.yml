@@ -15,4 +15,3 @@ turbine:
     eventStream:
       skipLineLogic: false
   instanceUrlSuffix: /hystrix.stream
-  #clusterNameExpression: 'default'
